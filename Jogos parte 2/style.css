@@ -1,0 +1,44 @@
+a{
+  font-size: 40px;
+  background-color: blue;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+h2 {
+    font-family: Outfit;
+}
+
+div{
+    text-align: center;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+body > div {
+    background-color: aliceblue;
+    max-width: 736px;
+    margin-inline: auto;
+    margin-block: 64px;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    color: blue;
+    border-bottom: 12px;
+}
+
+div a {
+    display: block;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 12px;
+}
+
+div a:hover{
+    background-color: gold;
+    transition: 0.5s;
+}
